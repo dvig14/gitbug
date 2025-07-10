@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1,
+        "title": "fix button alignment",
+        "description": "login button is miasligned",
+        "scenario_id": 1,
+        "status": "open",
+        "priority": "medium",
+        "assigned_to": "dev2",
+        "reported_by": "reporter2",
+        "created_at": "2025-06-25T15:48:40",
+        "updated_at": "2025-07-10T19:35:58",
+        "tags": [
+            "ui",
+            "frontend"
+        ],
+        "history": [
+            {
+                "action": "reported",
+                "by": "reporter2",
+                "role": "reporter",
+                "timestamp": "2025-06-25T15:48:40"
+            },
+            {
+                "action": "assigned",
+                "by": "lead-dev",
+                "role": "manager",
+                "to": "dev2",
+                "timestamp": "2025-06-25T15:55:15"
+            }
+        ],
+        "scenario_status": {
+            "completed": false,
+            "current_step": 0,
+            "last_attempt": null
+        }
+    },
+    {
+        "id": 2,
+        "title": "Null reference exception in payment flow",
+        "description": "App crashes on checkout when payment method is not selected.",
+        "scenario_id": null,
+        "status": "open",
+        "priority": "high",
+        "assigned_to": "dev3",
+        "reported_by": "reporter1",
+        "created_at": "2025-06-27T10:30:00",
+        "updated_at": "2025-06-27T10:45:00",
+        "tags": [
+            "backend",
+            "critical",
+            "payment"
+        ],
+        "history": [
+            {
+                "action": "reported",
+                "by": "reporter1",
+                "role": "reporter",
+                "timestamp": "2025-06-27T10:30:00"
+            },
+            {
+                "action": "assigned",
+                "by": "lead-dev",
+                "role": "manager",
+                "to": "dev3",
+                "timestamp": "2025-06-27T10:45:00"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "CSS not loading in production",
+        "description": "UI styles broken after deployment. Static assets not linked properly.",
+        "scenario_id": null,
+        "status": "open",
+        "priority": "high",
+        "assigned_to": "dev5",
+        "reported_by": "reporter2",
+        "created_at": "2025-06-27T20:10:20",
+        "updated_at": "2025-06-28T09:12:00",
+        "tags": [
+            "deployment",
+            "ui",
+            "production"
+        ],
+        "history": [
+            {
+                "action": "reported",
+                "by": "reporter2",
+                "role": "reporter",
+                "timestamp": "2025-06-27T20:10:20"
+            },
+            {
+                "action": "assigned",
+                "by": "project-mgr",
+                "role": "manager",
+                "to": "dev5",
+                "timestamp": "2025-06-28T09:12:00"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Slow database queries on dashboard",
+        "description": "Dashboard takes over 5s to load due to inefficient SQL joins.",
+        "scenario_id": null,
+        "status": "open",
+        "priority": "medium",
+        "assigned_to": "dev3",
+        "reported_by": "reporter4",
+        "created_at": "2025-06-23T18:22:50",
+        "updated_at": "2025-06-24T09:30:00",
+        "tags": [
+            "database",
+            "performance"
+        ],
+        "history": [
+            {
+                "action": "reported",
+                "by": "reporter4",
+                "role": "reporter",
+                "timestamp": "2025-06-23T18:22:50"
+            },
+            {
+                "action": "assigned",
+                "by": "lead-dev",
+                "role": "manager",
+                "to": "dev3",
+                "timestamp": "2025-06-24T030:00:00"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Missing 500 error handling on user signup",
+        "description": "Backend returns HTML stacktrace when database connection fails.",
+        "scenario_id": null,
+        "status": "open",
+        "priority": "high",
+        "assigned_to": "dev2",
+        "reported_by": "reporter1",
+        "created_at": "2025-06-28T14:11:00",
+        "updated_at": "2025-06-28T14:30:00",
+        "tags": [
+            "api",
+            "security"
+        ],
+        "history": [
+            {
+                "action": "reported",
+                "by": "reporter1",
+                "role": "reporter",
+                "timestamp": "2025-06-28T14:11:00"
+            },
+            {
+                "action": "assigned",
+                "by": "triage-bot",
+                "role": "manager",
+                "to": "dev2",
+                "timestamp": "2025-06-28T14:30:00"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Webpack build fails on CI",
+        "description": "Build fails on CI but works locally due to case-sensitive import path on Linux.",
+        "scenario_id": null,
+        "status": "open",
+        "priority": "low",
+        "assigned_to": "dev5",
+        "reported_by": "reporter4",
+        "created_at": "2025-06-30T17:48:12",
+        "updated_at": "2025-06-30T18:00:00",
+        "tags": [
+            "frontend",
+            "build"
+        ],
+        "history": [
+            {
+                "action": "reported",
+                "by": "reporter4",
+                "role": "reporter",
+                "timestamp": "2025-06-30T17:48:12"
+            },
+            {
+                "action": "assigned",
+                "by": "lead-dev",
+                "role": "manager",
+                "to": "dev5",
+                "timestamp": "2025-06-30T18:00:00"
+            }
+        ]
+    }
+]

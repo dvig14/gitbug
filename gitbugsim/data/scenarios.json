@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "type": "merge_conflict",
+        "title": "Realistic Merge Conflict",
+        "icon":"🔀",
+        "description": "Experience a real merge conflict with simulated teammate",
+        "objective":[
+            {
+                "name": "Create Feature Branch",
+                "description": "Create a feature branch for your fix",
+                "hint": "Use git checkout -b feature/fix-button-alignment",
+                "check_func": "check_branch_created"
+            },
+            {
+                "name": "Implement and Commit Fix",
+                "description": "Modify login.css to use absolute positioning and commit.\n\n    [yellow]Location: user_simulation/local_repos/..[/]",
+                "hint": "\n1. Edit file\n2. git add login.css.\n3. git commit -m 'fix: button alignment'\n> Optional: See your changes with `git diff login.css`",
+                "check_func": "check_commit_with_fix"
+            },
+            {
+                "name": "Merge Changes",
+                "description": "Integrate your fix with origin/main or origin/master branch",
+                "hint": "\n1. fetch origin.\n  - This will keep your local repo up-to-date.\n2. merge `remote-branch`",
+                "check_func": "check_merge_attempted"
+            },
+            {
+                "name": "Resolve Conflict",
+                "description": "Resolve the CSS conflict. First check status",
+                "hint": "Edit file, keep your fix, remove markers. \n1. check status \n2. add login.css \n3. commit -m 'Merge: conflict resolved'\n> Use `git diff` before and git diff --cached after staging.",
+                "check_func": "check_conflict_resolved"
+            }
+        ]
+    }
+]

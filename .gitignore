@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor & system files
+.DS_Store
+*.log
+*.bak
+
+# Project-specific
+user_simulation/
+

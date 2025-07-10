@@ -1,0 +1,13 @@
+[
+  { "username": "lead-dev", "role": "manager" },
+  { "username": "project-mgr", "role": "manager" },
+  { "username": "triage-bot", "role": "manager" },
+  { "username": "dev1", "role": "developer" },
+  { "username": "dev2", "role": "developer" },
+  { "username": "dev3", "role": "developer" },
+  { "username": "dev5", "role": "developer" },
+  { "username": "reviewer1", "role": "reviewer" },
+  { "username": "reviewer1", "role": "reviewer" },
+  { "username": "reporter1", "role": "reporter" },
+  { "username": "reporter2", "role": "reporter" }
+]

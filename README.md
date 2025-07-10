@@ -1,7 +1,7 @@
 # GitBug: Git Learning Simulator
 
 ![GitHub stars](https://img.shields.io/github/stars/dvig14/gitbug?style=social)
-![GitHub license](https://img.shields.io/github/license/dvig14/gitbug)
+![GitHub license](https://img.shields.io/github/license/dvig14/gitbug?style=flat)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Contributors Welcome](https://img.shields.io/badge/contributors-welcome-brightgreen)<br><br>
 

@@ -1,4 +1,4 @@
-# GitBug: Open Source Git Learning Simulator
+# GitBug: Git Learning Simulator
 
 ![GitHub stars](https://img.shields.io/github/stars/dvig14/gitbug?style=social)
 ![GitHub license](https://img.shields.io/github/license/dvig14/gitbug)

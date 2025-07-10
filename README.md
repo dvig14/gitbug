@@ -7,7 +7,7 @@
 
 
 
-**GitBug** is an open-source CLI that teaches Git through hands-on bug fixing. Experience a realistic merge conflict scenario with visual feedback at every step - the first of many Git challenges to come!
+**GitBug** is an CLI that teaches Git through hands-on bug fixing. Experience a realistic merge conflict scenario with visual feedback at every step - the first of many Git challenges to come!
 It helps you learn by doing, not just reading.
 
 > "Finally understand merge conflicts through practical experience!" - Early Tester

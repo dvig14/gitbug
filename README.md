@@ -21,12 +21,6 @@ It helps you learn by doing, not just reading.
 
 <br>
 
-> ⚠️ **Note**: This is an early-stage project built as a way to learn Git deeply by building.  
-> I'm still actively learning and improving it — feedback and contributions are very welcome!  
-> The current focus is on realistic merge conflict simulation. More scenarios coming soon.
-
-<br>
-
 ## 🚀 Features
 
 * 🔀 **Merge Conflict Scenario**: A full guided simulation of a real-world Git merge conflict with step-by-step objectives

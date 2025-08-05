@@ -5,7 +5,14 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Contributors Welcome](https://img.shields.io/badge/contributors-welcome-brightgreen)<br><br>
 
+> ❗ **Note**: This project is no longer actively maintained.  
+> I originally built it as a Git simulation lab to deepen my understanding of Git internals.
+>
+> It was part of my self-learning journey, and while it may not be perfect  it helped me learn a lot through trial, error, and iteration.
+>
+> 👉 I'm currently working on a new active project focused on DevOps failure simulations: [FailOps Lab](https://github.com/dvig14/Dev-FailOps)
 
+<br>
 
 **GitBug** is an CLI that teaches Git through hands-on bug fixing. Experience a realistic merge conflict scenario with visual feedback at every step - the first of many Git challenges to come!
 It helps you learn by doing, not just reading.

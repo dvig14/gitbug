@@ -331,21 +331,13 @@ You ran [yellow]git add login.css[/], but Git still shows a clean state — noth
 - And now, you made the **exact same change** again.
 - Since there's no difference compared to what's already in history, Git treats this as a [cyan]no-op add[/].
 
-🔍 Git tracks [cyan]changes[/cyan], not files — so it doesn't re-stage unchanged content.
+> Git tracks commits as [green]snapshots of the entire file tree[/] at the time of each commit.
 
-✅ Don't worry — you're doing things right. Git's just being efficient.
-
-
-➕ [cyan]Git Optimization:[/cyan]
-> Git doesn't track commits as [yellow]snapshots[/] of full trees, but rather as changes.   
-
-> So, when: So when the working copy and staging area match what Git sees in the current commit tree, it shows:
-  - Your working copy (login.css)
-  - Your staging area
-  - And the committed version (e.g. from `HEAD` latest commit version of same file) 
-  ...all match exactly — Git shows: 
-
-  [green]nothing to commit, working tree clean[/]
+> Under the hood, Git stores each file as a blob object, and commits reference these blobs in a tree.
+    - Each commit represents a full snapshot of the project.
+    - If files don’t change, Git reuses the same blob hash and won't re-stage.
+    - That’s why when your working tree, staging area, and HEAD all match — Git shows:
+      [green]"nothing to commit, working tree clean"[/]
 
 ----
   
